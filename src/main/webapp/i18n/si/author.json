@@ -1,0 +1,26 @@
+{
+  "jhipsterFirstApp": {
+    "author": {
+      "home": {
+        "title": "Authors",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "නව Author එකක් සාදන්න",
+        "createOrEditLabel": "Author සාදන්න හෝ සංස්කරණය කරන්න",
+        "notFound": "Authors හමු නොවීය"
+      },
+      "created": "{{ param }} හඳුනාගැනීමෙන් නව Author සාදනු ලැබේ",
+      "updated": "{{ param }} හඳුනාගැනීමෙන් Author යාවත්කාලීන වේ",
+      "deleted": "{{ param }} හඳුනාගැනීමෙන් Author මකා දමනු ලැබේ",
+      "delete": {
+        "question": "Author {{ id }} මකා දැමීමට ඔබට විශ්වාසද?"
+      },
+      "detail": {
+        "title": "Author"
+      },
+      "id": "ID",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "book": "Book"
+    }
+  }
+}

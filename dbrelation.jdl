@@ -1,0 +1,35 @@
+entity Publisher {
+    name String required unique
+}
+entity Author {
+    firstName String required
+    lastName String required
+}
+entity Client {
+    firstName String required
+    lastName String  required
+    email String unique
+    address String
+    phone String
+}
+entity Book{
+    isbn String required unique
+    name String required
+    publishYear String required
+    copies Integer required
+    cover ImageBlob
+}
+entity BorrowedBook{
+    borrowDate LocalDate
+}
+relationship OneToOne {
+    Book{publisher(name)} to Publisher
+    BorrowedBook{book(name)} to Book
+    BorrowedBook{Client(email)} to Client
+}
+relationship ManyToMany {
+    Book{author(firstName)} to Author{book}
+}
+filter Book, Client, Author, BorrowedBook, Publisher
+paginate Book, Client, Author, BorrowedBook, Publisher with pagination
+service all with serviceImpl

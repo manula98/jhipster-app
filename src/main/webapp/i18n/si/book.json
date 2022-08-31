@@ -1,0 +1,30 @@
+{
+  "jhipsterFirstApp": {
+    "book": {
+      "home": {
+        "title": "Books",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "නව Book එකක් සාදන්න",
+        "createOrEditLabel": "Book සාදන්න හෝ සංස්කරණය කරන්න",
+        "notFound": "Books හමු නොවීය"
+      },
+      "created": "{{ param }} හඳුනාගැනීමෙන් නව Book සාදනු ලැබේ",
+      "updated": "{{ param }} හඳුනාගැනීමෙන් Book යාවත්කාලීන වේ",
+      "deleted": "{{ param }} හඳුනාගැනීමෙන් Book මකා දමනු ලැබේ",
+      "delete": {
+        "question": "Book {{ id }} මකා දැමීමට ඔබට විශ්වාසද?"
+      },
+      "detail": {
+        "title": "Book"
+      },
+      "id": "ID",
+      "isbn": "Isbn",
+      "name": "Name",
+      "publishYear": "Publish Year",
+      "copies": "Copies",
+      "cover": "Cover",
+      "publisher": "Publisher",
+      "author": "Author"
+    }
+  }
+}

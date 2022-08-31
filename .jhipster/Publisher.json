@@ -1,0 +1,21 @@
+{
+  "applications": "*",
+  "changelogDate": "20220829194353",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "publisher",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "unique"]
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "Publisher",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}

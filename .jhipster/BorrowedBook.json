@@ -1,0 +1,35 @@
+{
+  "applications": "*",
+  "changelogDate": "20220829194357",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "borrowed_book",
+  "fields": [
+    {
+      "fieldName": "borrowDate",
+      "fieldType": "LocalDate"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "BorrowedBook",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "book",
+      "ownerSide": true,
+      "relationshipName": "book",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "otherEntityField": "email",
+      "otherEntityName": "client",
+      "ownerSide": true,
+      "relationshipName": "client",
+      "relationshipType": "one-to-one"
+    }
+  ],
+  "service": "serviceImpl"
+}
